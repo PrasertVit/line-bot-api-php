@@ -1,6 +1,6 @@
  <?php
 	function pubMqtt($topic,$msg){
-		$APPID= "PSVIoTTraining/"; //enter your appid
+		$APPID= "PSVIoTTraining/"; //enter your appid endding with /
 		$KEY = "vlQhKQlMYJbD53f"; //enter your web key
 		$SECRET = "geEX7kg94jUfNEWSYChOtxQ7l"; //enter your secret
 		$Topic = "$topic";
